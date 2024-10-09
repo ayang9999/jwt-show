@@ -5,7 +5,7 @@ This is a simple laravel jwt authentication and react system
 steps to run the project:
 
 1. Clone the repository
-   run `git clone https://github.com/yuanzhou0827/laravel-jwt-authentication.git`
+   run `git clone git@github.com:ayang9999/jwt-show.git`
 2. Run `composer install`
 3. Run `php artisan key:generate`
 4. 使用pest进行单元测试
