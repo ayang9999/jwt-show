@@ -1,12 +1,13 @@
 version: '3.8'
 
 services:
-    debian_php_nginx:
+    lnmp:
         image: fbraz3/lnmp:latest
-        container_name: latest
+        container_name: jwt_test
         ports:
             - "8080:8080"
         volumes:
             -   ./nginx.conf:/etc/nginx/conf.d/default.conf
             -   .:/www
         command: chmod -R 777 /www
+
